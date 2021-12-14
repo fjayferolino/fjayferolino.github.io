@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"GUITARRA MUSICA STUDIO"</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #C54B6C;
+        background-image: url(studio2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+      div.topnav {
+        overflow: hidden;
+        background-color: transparent;
+        top: 0;
+        width: 100%;
+        border-bottom: 1px solid black;
+      }
+
+      .topnav a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 70px;
+        text-decoration: none;
+        font-size: 17px;
+        width: 150px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 17px;
+      }
+
+        .topnav a:hover {
+        background-color: violet;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: transparent;
+        color: red;
+        float: left;
+        font-style: italic;
+      }
+
+      .login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: transparent;  
+        border-radius: 15px ; 
+        float: right; 
+        margin-right: 18%;
+        margin-top: 1%;
+          
+      }
+      h2{  
+        text-align: center;  
+        color: #277582;  
+        padding: 20px;  
+      }  
+      label{  
+        color:rgb(34, 9, 34);  
+        font-size: 17px;  
+      }  
+      #Uname{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+      }  
+      #Pass{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+      
+      }  
+      #log{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 17px;  
+        padding-left: 7px;  
+        color: blue;
+        background-color:lightgreen;  
+  
+  
+      }  
+      span{  
+        color:black;  
+        font-size: 17px;  
+      }  
+      b{  
+        font-style: italic;  
+      }
+      .fa-facebook img {
+        background: #3B5998;
+        color: white;
+        width: 35px;
+        height: 35px;
+      } 
+      .fa-twitter img {
+        background: #55ACEE;
+        color: white;
+        width: 35px;
+        height: 35px;
+      }
+      .fa-youtube img {
+        background: #bb0000;
+        color: white;
+        width: 35px;
+        height: 35px;
+      }
+      .fa-instagram img {
+        background: #125688;
+        color: white;
+        width: 35px;
+        height: 35px;
+      }
+      .kk img{
+        height: 500px;
+        width: 450px;
+        float: left;
+        border-radius: 10%;
+        margin-top: 5%;
+        margin-left: 15%;
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: transparent;
+        color: black;
+        text-align: center;
+      }
+
+      @media only screen and (max-width: 1250px) {
+        .topnav a {
+          padding: 7px 10px;
+          font-size: 15px;
+          width: 60px;  
+          
+        }
+
+        .login{  
+          width: 382px;  
+          padding: 80px;  
+          background: transparent;  
+          border-radius: 15px ; 
+          float: none; 
+          margin-right: 10%;
+          margin-top: 5%;
+          margin: auto;
+            
+        }
+
+
+
+        .topnav a:hover {
+        background-color: violet;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: transparent;
+        color: red;
+        float: left;
+        font-style: italic;
+      }
+
+      .login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: transparent;  
+        border-radius: 15px ; 
+        float: right; 
+        margin-right: 18%;
+        margin-top: 5%;
+          
+      }
+
+        .kk img{
+          height: 500px;
+          width: 450px;
+          float: none;
+          border-radius: 10%;
+          margin-top: 10%;
+          display: flex;
+          margin: auto;
+          justify-content: center;
+          -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+        }
+
+        .footer {
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: transparent;
+          color: black;
+          text-align: center;
+        }
+      }
+
+      @media only screen and (max-width: 900px) {
+        .topnav a {
+          padding: 7px 10px;
+          font-size: 10px;
+          width: 50px; 
+        }
+          .login{  
+            width: 382px;  
+            padding: 80px;  
+            background: transparent;  
+            border-radius: 15px ; 
+            float: none; 
+            margin-right: 10%;
+            margin-top: 5%;
+              
+          }
+  
+          .kk img{
+            height: 500px;
+            width: 450px;
+            float: none;
+            border-radius: 10%;
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+          
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active">GUITARRA MUSICA STUDIO</a>
+        <a href="login.htm">LOG IN</a>
+        <a href="contact.htm">Contact</a>
+        <a href="tutorial.htm">Tutorial</a>
+        <a href="FJAY.HTM">Home</a>
+    </div>
+    <div class="login">    
+      <form id="login" method="get" action="login.php">
+         <p>Join thousands of people.Learning<br>how to use guitar.</p>
+         <br>    
+        <label><b>Email
+        <br>     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Email">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Sign Up">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <p>By signing for <b>GUITARA MUSICA STUDIO</b><br> you agreed on Terms of service and  Private Policy. </p>
+        <a class="fa fa-facebook">
+          <img src="jjj.jpg">
+        </a>
+        <a class="fa fa-twitter">
+          <img src="jay.jpg">
+        </a>
+        <a class="fa fa-youtube">
+          <img src="youtube.jpg">
+        </a>
+        <a class="fa fa-instagram">
+          <img src="instagram.jpg">
+        </a>    
+      </form> 
+    </div> 
+    <div class="kk">
+        <img src="guitarist1.jpeg">
+    </div>
+    <div class="footer">
+      <p>©Copyright 2021 <br> Made by GUITARRA MUSICA STUDIO</p>
+    </div>   
+  </div> 
+  </body>
+</html>

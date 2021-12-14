@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #C54B6C;
+            background-image: url(studio2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        div.topnav {
+            overflow: hidden;
+            background-color: transparent;
+            top: 0;
+            width: 100%;
+            border-bottom: 1px solid black;
+        }
+
+        .topnav a {
+            float: right;
+            color: black;
+            text-align: center;
+            padding: 14px 70px;
+            text-decoration: none;
+            font-size: 17px;
+            width: 150px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: violet;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: transparent;
+            color: red;
+            float: left;
+            font-style: italic;
+        } 
+        .question{
+            margin-top: 7%;
+            margin-left: 10%;
+        } 
+        .num{
+            margin-top: 2%;
+            margin-left: 10%;
+        } 
+        .office{
+            margin-top: 3%;
+            margin-left: 10%;
+        } 
+        .contact{
+            margin-top: 3%;
+            margin-left: 10%;            
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: transparent;
+            padding: 20px;
+            width:40%;
+            float: right;
+            margin-right: 10%;
+            margin-top: 5%;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: transparent;
+            color: black;
+            text-align: center;
+
+        } 
+        @media only screen and (max-width: 1250px) {
+            .topnav a {
+              padding: 7px 10px;
+              font-size: 15px;
+              width: 60px;  
+              
+            }
+                .topnav a:hover {
+                background-color: violet;
+                color: black;
+            }
+    
+            .topnav a.active {
+                background-color: transparent;
+                color: red;
+                float: left;
+                font-style: italic;
+            }
+
+            .container {
+                border-radius: 5px;
+                background-color: transparent;
+                padding: 20px;
+                width:40%;
+                float: right;
+                text-align: center;
+                justify-content: center;
+            }
+            .footer {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: transparent;
+              color: black;
+              text-align: center;
+            }
+          }   
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active">GUITARRA MUSICA STUDIO</a>
+        <a href="login.htm">LOG IN</a>
+        <a href="contact.htm">Contact</a>
+        <a href="tutorial.htm">Tutorial</a>
+        <a href="FJAY.HTM">Home</a>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+          
+            <label for="subject">Questions</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="question">
+        <h1>QUESTIONS?</h1>
+    </div>
+    <div class="num">
+        <a>GUITARRA MUSICA STUDIO is helping aspiring youth you wants to learn <br/> how to play musical intrument especially guitar.Please call us or use the form <br/> from this page if you have any question or interest about us <br/> <i>GUITARA MUSICA STUDIO</i>.</a>
+    </div>
+    <div class="office">
+        <h2>STUDIO LOCATION</h2> Samjung Building <br> Nasipit Road Talamban <br> Cebu City
+    </div>
+    <div class="contact">
+        <h2>Contact Information</h2> Phone number : <u>1(800)530-3875</u> <br>
+        <a>Email: <u>musicadeguitar@gmail.com</u></a> <br>
+        <a>Facebook Account: <u>GUITARAMUSICA_STUDIO</u></a> <br>
+        <a>Instagram Account: <u>@guitarramusicastudio</u></a> <br>
+        <a> Youtube Account: <u>Guitarramusicastudio@youtube.com</u></a>
+    </div>
+    <div class="footer">
+        <p>©Copyright 2021 <br> Made by GUITARRA MUSICA STUDIO</p>
+    </div>
+</body>
+</html>
